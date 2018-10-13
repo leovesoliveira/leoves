@@ -1,0 +1,33 @@
+baseURL = "https://leov.es/"
+languageCode = "pt-br"
+title = "Leonardo Alves"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[permalinks]
+  posts = "/posts/:year/:month/:slug/"
+
+[params]
+  subtitle = "O Meu blog pessoal."
+
+[params.logo]
+  logoText = "leov.es"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/post"
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/leovesoliveira"
+  [[menu.main]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/leoves"
+  [[menu.main]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/leoves/"
