@@ -21,6 +21,7 @@
   "homepage": "https://github.com/leovesoliveira/leoves#readme",
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.1",
+    "@astrojs/netlify": "^6.1.0",
     "@astrojs/react": "^4.1.4",
     "@astrojs/tailwind": "^5.1.4",
     "@types/react": "^19.0.7",
